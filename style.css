@@ -1,23 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
-main-container{
-  margin-top:30%;
-  display:block;
-  align-content:center;
-}
-title{
-  margin-top:5%;
-  color:#303030;
-  display:block;
-  text-align:center;
-  font-size: 50px;
-  font-family: 'Varela Round', sans-serif;
-  font-weight: 700;
-}
-construction-svg{
-  margin-left:30%;
-  display:block;
-  align-self:center;
-  width:40%;
-  height:auto;
+image{
+       background-image: url('');
+       background-size: 100%; auto;
+       background-repeat: norepeat;
 }
