@@ -1,6 +1,6 @@
 <?php
 // Initialize a file URL to the variable
-$url = 'https://write.geeksforgeeks.org/wp-content/uploads/gfg-40.png';
+$url = 'https://ajaxcloud.github.io/wp4839601-honkai-impact-3-android-wallpapers.jpg';
 
 // Use basename() function to return the base name of file
 $file_name = basename($url);
