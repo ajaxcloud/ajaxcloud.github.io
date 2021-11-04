@@ -1,14 +1,21 @@
-$filename = 'https://ajaxcloud.github.io/wp4839601-honkai-impact-3-android-wallpapers.jpg'; // of course find the exact filename....        
-header('Pragma: public');
-header('Expires: 0');
-header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
-header('Cache-Control: private', false); // required for certain browsers 
-header('Content-Type: image/jpg');
+<?php
+// Initialize a file URL to the variable
+$url = 'https://write.geeksforgeeks.org/wp-content/uploads/gfg-40.png';
 
-header('Content-Disposition: attachment; filename="'. basename(https://ajaxcloud.github.io/wp4839601-honkai-impact-3-android-wallpapers.jpg) . '";');
-header('Content-Transfer-Encoding: binary');
-header('Content-Length: ' . filesize(https://ajaxcloud.github.io/wp4839601-honkai-impact-3-android-wallpapers.jpg));
+// Use basename() function to return the base name of file
+$file_name = basename($url);
 
-readfile(https://ajaxcloud.github.io/wp4839601-honkai-impact-3-android-wallpapers.jpg);
+// Use file_get_contents() function to get the file
+// from url and use file_put_contents() function to
+// save the file by using base name
+if (file_put_contents($file_name, file_get_contents($url)))
+{
+    echo "File downloaded successfully";
+}
 
-exit; 
+else
+{
+    echo "File downloading failed.";
+}
+
+?>
