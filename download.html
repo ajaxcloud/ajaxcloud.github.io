@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<?php
+$introduction = '';
+$intersect = $_POST['needIntroduction'];
+$introduction = $_POST['search'];
+if(trim($introduction) == 'introduction'){
+    header("Location: introduction.html");
+}
+else if(trim($introduction) == 'intro'){
+    header("Location: introduction.html");
+}
+/*
+else{
+    /* no need for else as all that would happen on else if setting the header's Location to the current-page */
+}
+*/
+?>
+</head>
+<body>
+    <input name="needIntroduction" type="text" autocomplete="off" value="" />
+</body>
+</html>
