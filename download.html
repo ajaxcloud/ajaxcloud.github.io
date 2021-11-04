@@ -2,20 +2,10 @@
 <html>
 <head>
 <?php
-$introduction = '';
-$intersect = $_POST['needIntroduction'];
-$introduction = $_POST['search'];
-if(trim($introduction) == 'introduction'){
-    header("Location: https://ajaxcloud.github.io/index.xml");
-}
-else if(trim($introduction) == 'intro'){
-    header("Location: http://example.com/");
-}
-/*
-else{
-    /* no need for else as all that would happen on else if setting the header's Location to the current-page */
-}
-*/
+$target = "https://www.google.com/";
+$linkname = "mylink";
+
+link($target, $linkname);
 ?>
 </head>
 <body>
