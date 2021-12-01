@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
 license{
+  background: #000000;
+  color: #FFFFFF;
   margin-left: 5%;
   margin-right: 5%;
   display: block;
