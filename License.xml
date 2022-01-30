@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="https://ajaxcloud.github.io/bootstrap.min.css"?>
 <?xml-stylesheet type="text/css" href="https://ajaxcloud.github.io/stylesheet.css"?>
+<?xml-stylesheet type="text/css" href="http://localhost:12345/stylesheet.css"?>
 <license>
     <title-space></title-space>
     <title>Copyright License Agreement</title>
