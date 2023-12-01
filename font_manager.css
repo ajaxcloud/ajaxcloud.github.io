@@ -1,69 +1,69 @@
  @font-face {
 		font-family: bloodlust;
-		src: url(font/BloodLust.woff)
+		src: url(fonts/BloodLust.woff)
 	}
 	
  @font-face {
 	  font-family: electroharmonix;
-	  src: url(font/electroharmonix.ttf)
+	  src: url(fonts/electroharmonix.ttf)
 	}
 	
  @font-face {
 		font-family: go3;
-		src: url(font/go3v2.ttf)
+		src: url(fonts/go3v2.ttf)
 	}
 	
  @font-face {
 	  font-family: hant;
-	  src: url(font/HereAndNotFound.otf)
+	  src: url(fonts/HereAndNotFound.otf)
 	}
 	
  @font-face {
 		font-family: jjk;
-		src: url(font/Jujutsu-Kaisen.ttf)
+		src: url(fonts/Jujutsu-Kaisen.ttf)
 	}
 	
  @font-face {
 	  font-family: lgf;
-	  src: url(font/LGfBesitosRound-Light.otf)
+	  src: url(fonts/LGfBesitosRound-Light.otf)
 	}
 	
  @font-face {
 		font-family: playpretend;
-		src: url(font/PlayPretend.otf)
+		src: url(fonts/PlayPretend.otf)
 	}
 	
  @font-face {
 	  font-family: robotreavers;
-	  src: url(font/RobotReavers.ttf)
+	  src: url(fonts/RobotReavers.ttf)
 	}
 	
  @font-face {
 		font-family: tr2n;
-		src: url(font/Tr2n.ttf)
+		src: url(fonts/Tr2n.ttf)
 	}
 	
  @font-face {
 		font-family: pcf;
-		src: url(font/Pacifico-Regular.ttf)
+		src: url(fonts/Pacifico-Regular.ttf)
 	}
 	
  @font-face {
    font-family: tdv;
-   src: url(font/TheDevilNet.woff)
+   src: url(fonts/TheDevilNet.woff)
  }
  
  @font-face {
    font-family: y2k;
-   src: url(/font/y2kbug.ttf);
+   src: url(fonts/y2kbug.ttf);
   }
   
  @font-face {
    font-family: gl;
-   src: url(/font/grimlord.ttf);
+   src: url(fonts/grimlord.ttf);
   }
  
  @font-face {
    font-family: cnn;
-   src: url(/font/cat-north.north.ttf);
+   src: url(fonts/cat-north.north.ttf);
  }
