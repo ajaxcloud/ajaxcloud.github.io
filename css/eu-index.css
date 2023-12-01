@@ -1,0 +1,133 @@
+html {
+	overflow: hidden;
+} /*Hide scrollbar*/
+
+@media only screen and (max-width: 480px) {
+	body {
+		background-image: url(../temp.img/t1.jpg);
+		background-repeat: no-repeat;
+  /*  backdrop-filter: contrast(120%);
+		backdrop-filter: brightness(130%);*/
+		background-attachment: fixed;
+		background-size: 110%; /* 160%-eula  140%-nier2b */
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	body {
+		display: none;
+	}
+}
+
+.vid {
+	object-fit: cover !important;
+	width: 100%; /*100vh*/
+	height: 100vh;
+	position: fixed !important;
+	top: 0;
+	left: 0;
+}
+
+
+marquee{color:#ffffff;
+  margin-left: 4.5%; margin-right: 40%; margin-top: 5%;
+}
+
+h1{/*** Title ***/
+  margin-left:4.5%; margin-top:60%; font-family: playpretend; font-size:70px; color:white;
+}
+
+.mini-title{
+  font-family: pcf;
+  margin-left:4.5%; margin-top:-7%;
+}
+
+
+.btn {
+	background: auto;
+	color: #000000 !important;
+}
+
+.btn:hover {
+	background-color: auto;
+	color: #000000;
+}
+
+
+/**** Neon text effect ****/
+.eula-span2 {
+	text-shadow: 0 0 7px #BCEDF1,
+      0 0 10px #BCEDF1,
+      0 0 21px #BCEDF1,
+      0 0 42px #BCEDF1,
+      0 0 82px #BCEDF1,
+      0 0 92px #BCEDF1,
+      0 0 102px #BCEDF1,
+      0 0 151px #BCEDF1;
+}
+
+.eula-span1 {
+  color: #FFFFFF;
+	text-shadow: 0 0 7px #F5CFBB, 
+      0 0 10px #F5CFBB, 
+      0 0 21px #F5CFBB, 
+      0 0 42px #F5CFBB,
+      0 0 82px #BCEDF1, 
+      0 0 92px #BCEDF1, 
+      0 0 102px #BCEDF1,
+      0 0 151px #BCEDF1;
+}
+
+.mini-title-span1 {
+  color: #FFFFFF;
+	text-shadow: 0 0 7px #F5CFBB,
+      0 0 10px #F5CFBB,
+      0 0 21px #F5CFBB,
+      0 0 42px #F5CFBB,
+      0 0 82px #BCEDF1,
+      0 0 92px #BCEDF1,
+      0 0 102px #BCEDF1,
+      0 0 151px #BCEDF1;
+}
+
+
+/**** dividers ****/
+.menubarx {
+  background-color: rgba(100%, 100%, 100%, 0.1);
+	backdrop-filter: blur(1px);
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 5%;
+	width: 90%;
+	height: 100px;
+	border-radius: 7px;
+	border: 1px solid black;
+}
+
+.badge {
+  margin-left:5%; margin-top:15%; text-decoration:none;
+}
+
+.badge:hover {
+  color: #FFFFFF;
+}
+
+
+/*** Animations ***/
+.grid {
+	animation: rotation 3s linear infinite;
+}
+
+
+
+/**** Keydrames ****/
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
